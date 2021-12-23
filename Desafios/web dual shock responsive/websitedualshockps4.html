@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DualShock Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="https://www.playstation.com/pt-br/"> <img src="imagens/logo.png" target=_blank class="logo"></a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="https://www.playstation.com/pt-br/accessories/dualshock-4-wireless-controller/" target=_blank><b>Joysticks</b></a></li>
+                    <li><a href="https://www.playstation.com/pt-br/ps-vr/?smcid=pdc%3Apt-br%3Aaccessories-dualshock-4-wireless-controller%3Aprimary%20nav%3Amsg-hardware%3Aps-vr" target=_blank><b>VR Acessories</b></a></li>
+                    <li><a href="https://www.playstation.com/pt-br/accessories/media-remote/" target=_blank><b>Media Remote</b></a></li>
+                    <li><a href="https://www.playstation.com/pt-br/ps4/ps4-accessories/?smcid=pdc%3Apt-br%3Aaccessories-media-remote%3Aprimary%20nav%3Amsg-hardware%3Aacessrios-para-o-ps4" target=_blank><b>Outros</b></a></li>
+                </ul>
+            </nav>
+            <img src="imagens/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2 <br>DualShock 4</h2>
+                <h3>Controle Wireless para PlayStation 4</h3>
+                <p>(Compatível/Genérico)</p>
+                <h4>R$: 185,25</h4>
+                <button type="button"><b>Compre Agora</b> <img src="imagens/arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="imagens/controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="imagens/cartimg.png" >
+                    <p><small>Add ao <b>cart</b></small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/PlayStationBR"><img src="imagens/fb.png" target=_blank></a>
+            <a href="https://www.instagram.com/playstation/"><img src="imagens/ig.png" target=_blank></a>
+            <a href="https://twitter.com/PlayStation_BR"><img src="imagens/tw.png" target=_blank></a>
+        </div>
+    </div>
+        <script>
+            var menuList= document.getElementById("menuList");
+            menuList.style.maxHeight="0px";
+            function togglemenu(){
+                if(menuList.style.maxHeight == "0px")
+                {
+                   menuList.style.maxHeight = "130px"
+                }
+                else{
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+</html>
