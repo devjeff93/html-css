@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* MODELOS DE CAIXAS - ANATOMIA
+        - Altura - height
+        - Largura - width
+        - Borda - border [linha que circunda o conteúdo]
+        - Preenchimento - padding [Afasta a borda do conteúdo]
+        - Margem - margin [Espaço externo que circunda o conteúdo]
+        - Contorno - outline
+           TIPOS DE CAIXA
+        > BOX-LEVEL        /     INLINE-LEVEL
+            - <div>              - <span>
+            - <h1>               - <a>
+            - <p>                - <code>
+            - <main>             - <small>
+            - <header>           - <strong>
+            - <nav>              - <em>  
+            - <article>          - <sup> - <sub>
+            - <aside>            - <label>
+            - <footer>           - <button>
+            - <form>             - <input>          
+            - <video>            - <select> 
+
+        */
+        h1 { /* BOX LEVEL */
+            background-color: lightseagreen;
+            height: 300px;
+            width: 300px;
+            border: 2px solid darkgoldenrod;
+
+            padding: 2px 2px 2px 2px;
+
+            margin: 2px 2px 2px 2px;
+
+           outline: 2px solid green;
+        }
+        a { /* INLINE LEVEL */
+            border: 2px dashed red;
+
+            padding: 2px 2px 2px 2px;
+
+        }
+    </style>
+</head>
+<body><h1>Exemplo de caixa box-level</h1>
+        <p>Paragrafos são exemplos de caixa box level <a href="#">vamos ver</a></p>
+      
+
+
+    
+</body>
+</html>

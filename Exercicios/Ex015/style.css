@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+style
+body {
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+h1 {
+    color: crimson;
+    background-color: darkseagreen;
+}
+h2 {
+    color: darkgoldenrod;
+    background-color: deepskyblue;
+}
+p {
+    color: darkred;
+    background-color: gainsboro;
+    font-size: 20px;
+    text-align: justify;
+}
+style

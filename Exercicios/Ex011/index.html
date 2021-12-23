@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Imagens em vários dispositivos diferentes</p>
+
+        <picture>
+            <source media="(max-width:750px )" 
+            srcset="Imagens/foto-p.png" 
+            type="Imagens/foto-p.png">
+
+            <source media="(max-width:1050px)" 
+            srcset="Imagens/foto-m.png" 
+            type="image/png">
+            <img src="Imagens/foto-g.png" alt="imagem flexível">
+        
+        </picture>
+
+        <h1>Reproduzindo audio</h1>
+        <p>Reproduzir áudios em site</p>
+        <audio src="midia/Aline Barros - Autor da Vida.mp3" controls autoplay></audio>
+        <audio preload="auto"autoplay controls loop></audio>
+            <source src="midia/Aline Barros - Autor da Vida.mp3" type="audio/mpeg">
+            <source src="midia/Aline Barros - Autor da Vida.ogg" type="audio/ogg">
+            <source src="midia/Aline Barros - Autor da Vida.mav" type="audio/mav">
+            <p>Infelizmente seu navegador não consegue executar o aúdio, você pode ouvi-lo clicando aqui:
+                <a href="https://www.youtube.com/watch?v=4DFBOuQQi1s" >Aline Barros - Autor da Vida </a></p>
+
+        </audio>
+
+
+
+
+
+    
+</body>
+</html>
